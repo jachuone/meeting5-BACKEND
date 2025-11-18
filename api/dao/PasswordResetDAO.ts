@@ -1,4 +1,4 @@
-import { db } from '../config/firebase.js';
+import { db } from '../config/firebase';
 
 /**
  * Password Reset Tokens Data Access Object

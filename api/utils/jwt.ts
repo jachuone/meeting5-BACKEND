@@ -1,6 +1,6 @@
 import jwt, { SignOptions } from 'jsonwebtoken';
 import dotenv from 'dotenv';
-import { JWTPayload } from '../types/index.js';
+import { JWTPayload } from '../types/index';
 
 dotenv.config();
 

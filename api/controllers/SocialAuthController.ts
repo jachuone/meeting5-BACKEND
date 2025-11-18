@@ -1,9 +1,9 @@
 import { Request, Response } from 'express';
-import { auth } from '../config/firebase.js';
-import UserDAO from '../dao/UserDAO.js';
-import { generateToken } from '../utils/jwt.js';
+import { auth } from '../config/firebase';
+import UserDAO from '../dao/UserDAO';
+import { generateToken } from '../utils/jwt';
 import logger from '../utils/logger.js';
-import { AuthenticatedRequest } from '../types/index.js';
+import { AuthenticatedRequest } from '../types/index';
 
 /**
  * Social Authentication Controller

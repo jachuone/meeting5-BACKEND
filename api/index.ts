@@ -1,10 +1,10 @@
 import express, { Express, Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import userRoutes from './routes/userRoutes.js';
-import meetingsRoutes from './routes/meetingsRoutes.js';
-import socialAuthRoutes from './routes/socialAuthRoutes.js';
-import logger from './utils/logger.js';
+import userRoutes from './routes/userRoutes';
+import meetingsRoutes from './routes/meetingsRoutes';
+import socialAuthRoutes from './routes/socialAuthRoutes';
+import logger from './utils/logger';
 
 dotenv.config();
 

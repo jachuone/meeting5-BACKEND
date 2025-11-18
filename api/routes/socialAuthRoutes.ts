@@ -1,8 +1,8 @@
 import express, { Router } from 'express';
 import { body } from 'express-validator';
-import { socialLogin, linkSocialAccount } from '../controllers/SocialAuthController.js';
-import { auth } from '../middleware/auth.js';
-import { validate } from '../middleware/validation.js';
+import { socialLogin, linkSocialAccount } from '../controllers/SocialAuthController';
+import { auth } from '../middleware/auth';
+import { validate } from '../middleware/validation';
 
 /**
  * Social Authentication Routes

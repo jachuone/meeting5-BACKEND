@@ -1,10 +1,10 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Response } from 'express';
-import MeetingsDAO from '../dao/MeetingsDAO.js';
-import UserDAO from '../dao/UserDAO.js';
-import { sendMeetingInvitation } from '../utils/emailService.js';
+import MeetingsDAO from '../dao/MeetingsDAO';
+import UserDAO from '../dao/UserDAO';
+import { sendMeetingInvitation } from '../utils/emailService';
 import logger from '../utils/logger.js';
-import { AuthenticatedRequest } from '../types/index.js';
+import { AuthenticatedRequest } from '../types/index';
 
 /**
  * Meetings Controller

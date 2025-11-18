@@ -1,12 +1,12 @@
 import bcrypt from 'bcryptjs';
 import { v4 as uuidv4 } from 'uuid';
 import { Request, Response } from 'express';
-import UserDAO from '../dao/UserDAO.js';
-import PasswordResetDAO from '../dao/PasswordResetDAO.js';
-import { generateToken } from '../utils/jwt.js';
-import { sendPasswordRecoveryEmail } from '../utils/emailService.js';
-import logger from '../utils/logger.js';
-import { AuthenticatedRequest } from '../types/index.js';
+import UserDAO from '../dao/UserDAO';
+import PasswordResetDAO from '../dao/PasswordResetDAO';
+import { generateToken } from '../utils/jwt';
+import { sendPasswordRecoveryEmail } from '../utils/emailService';
+import logger from '../utils/logger';
+import { AuthenticatedRequest } from '../types/index';
 
 /**
  * User Controller

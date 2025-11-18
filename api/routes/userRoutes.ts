@@ -1,9 +1,9 @@
 import express, { Router, Response } from 'express';
 import { body } from 'express-validator';
-import * as UserController from '../controllers/UserController.js';
-import { auth } from '../middleware/auth.js';
-import { validate } from '../middleware/validation.js';
-import { AuthenticatedRequest } from '../types/index.js';
+import * as UserController from '../controllers/UserController';
+import { auth } from '../middleware/auth';
+import { validate } from '../middleware/validation';
+import { AuthenticatedRequest } from '../types/index';
 
 /**
  * User Routes

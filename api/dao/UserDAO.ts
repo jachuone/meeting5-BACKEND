@@ -1,5 +1,5 @@
-import { db } from '../config/firebase.js';
-import { CreateUserDTO, UpdateUserDTO } from '../types/index.js';
+import { db } from '../config/firebase';
+import { CreateUserDTO, UpdateUserDTO } from '../types/index';
 
 /**
  * User Data Access Object

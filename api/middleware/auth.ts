@@ -1,7 +1,7 @@
 import { Response, NextFunction } from 'express';
-import { verifyToken } from '../utils/jwt.js';
-import logger from '../utils/logger.js';
-import { AuthenticatedRequest } from '../types/index.js';
+import { verifyToken } from '../utils/jwt';
+import logger from '../utils/logger';
+import { AuthenticatedRequest } from '../types/index';
 
 /**
  * Authentication Middleware

@@ -1,5 +1,5 @@
-import { db } from '../config/firebase.js';
-import { UpdateMeetingDTO } from '../types/index.js';
+import { db } from '../config/firebase';
+import { UpdateMeetingDTO } from '../types/index';
 
 /**
  * Meetings Data Access Object
